@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: de1eb9cb3535b0e478af88b5eb884120
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Kreadon
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 11010c3d3ccad574fb74ad6cc94c4ea5, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

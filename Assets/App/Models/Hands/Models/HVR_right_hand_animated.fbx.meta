@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 0422dc11b4ee77340bd115b69e662c2d
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: grab_right
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: point_right
+      takeName: Take 001
+      internalID: 9067093048684652814
+      firstFrame: 20
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: pich_right
+      takeName: Take 001
+      internalID: 3060872287085348379
+      firstFrame: 40
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_right
+      takeName: Take 001
+      internalID: 6641085478485924818
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: HVR_right_hand_animated(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Righthand
+      parentName: HVR_right_hand_animated(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000006657903, y: 0, z: -0, w: 1}
+      scale: {x: 1000, y: 1000, z: 1000}
+    - name: RHand
+      parentName: HVR_right_hand_animated(Clone)
+      position: {x: 0.0015279861, y: 0.08964191, z: 0.08879875}
+      rotation: {x: -0.7111082, y: -0.0012958418, z: -0.0012958413, w: 0.7030802}
+      scale: {x: 1000.0001, y: 1000.0005, z: 1000.0002}
+    - name: RRingFinger1
+      parentName: RHand
+      position: {x: -0.000021113938, y: 0.00013037198, z: -0.000008257553}
+      rotation: {x: -0.013826281, y: -0.0007644629, z: 0.13020502, w: 0.9913904}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000006}
+    - name: RRingFinger2
+      parentName: RRingFinger1
+      position: {x: 2.0489097e-12, y: 0.000046921272, z: 2.561137e-13}
+      rotation: {x: -0.030366873, y: 0.0045312275, z: -0.030535037, w: 0.999062}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000002}
+    - name: RRingFinger3
+      parentName: RRingFinger2
+      position: {x: -6.1467294e-12, y: 0.000030472562, z: -5.122274e-13}
+      rotation: {x: -0.00078061223, y: -0.0011606961, z: 0.02453868, w: 0.999698}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.99999976}
+    - name: RRingNub
+      parentName: RRingFinger3
+      position: {x: 2.0489097e-12, y: 0.000029532748, z: -5.122274e-13}
+      rotation: {x: -0.015077312, y: 0.0018002004, z: 0.0011810035, w: 0.999884}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: RPinkyFinger1
+      parentName: RHand
+      position: {x: -0.000039561568, y: 0.000120799916, z: -0.000012766107}
+      rotation: {x: -0.6013898, y: -0.16112342, z: 0.22922526, w: 0.7482148}
+      scale: {x: 0.9999999, y: 1.0000006, z: 1.0000005}
+    - name: RPinkyFinger2
+      parentName: RPinkyFinger1
+      position: {x: 8.195639e-12, y: 0.000035727775, z: 5.122274e-13}
+      rotation: {x: -0.0402785, y: 0.01264658, z: -0.01709675, w: 0.9989622}
+      scale: {x: 1, y: 1.0000004, z: 1.0000005}
+    - name: RPinkyFinger3
+      parentName: RPinkyFinger2
+      position: {x: -4.0978193e-12, y: 0.000023815572, z: -1.5366823e-12}
+      rotation: {x: 0.21204305, y: -0.6546571, z: 0.6438605, w: 0.33452278}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: RPinkyNub
+      parentName: RPinkyFinger3
+      position: {x: -4.0978193e-12, y: 0.00002889679, z: -1.0244548e-12}
+      rotation: {x: -0.11807882, y: 0.03305028, z: 0.006527584, w: 0.9924326}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: RThumb1
+      parentName: RHand
+      position: {x: 0.0000358542, y: 0.000057048983, z: -0.000009469402}
+      rotation: {x: -0.56972665, y: 0.24471727, z: -0.32717353, w: 0.71307963}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: RThumb2
+      parentName: RThumb1
+      position: {x: -8.195639e-12, y: 0.00005031641, z: 2.561137e-13}
+      rotation: {x: -0.04119537, y: -0.017497495, z: -0.02442751, w: 0.99869925}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: RThumb3
+      parentName: RThumb2
+      position: {x: -8.195639e-12, y: 0.000030140141, z: -2.561137e-13}
+      rotation: {x: 0.2845074, y: 0.59100455, z: -0.60661197, w: 0.44921166}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
+    - name: RThumbNUb
+      parentName: RThumb3
+      position: {x: -0, y: 0.00003180334, z: 7.683412e-13}
+      rotation: {x: 0.082212485, y: 0.040526673, z: 0.014592156, w: 0.9956836}
+      scale: {x: 1, y: 0.9999997, z: 0.9999998}
+    - name: RIndexFinger1
+      parentName: RHand
+      position: {x: 0.000034384157, y: 0.0001377412, z: -0.0000041303338}
+      rotation: {x: 0.5364844, y: -0.045452468, z: -0.07283794, w: 0.8395316}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000006}
+    - name: RIndexFinger2
+      parentName: RIndexFinger1
+      position: {x: 2.0489097e-12, y: 0.00004804357, z: 0}
+      rotation: {x: -0.11804879, y: -0.022891955, z: -0.5617678, w: 0.8185093}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: RIndexFinger3
+      parentName: RIndexFinger2
+      position: {x: -2.0489097e-12, y: 0.00003051959, z: 0}
+      rotation: {x: -0.01689936, y: -0.0006769839, z: -0.098557055, w: 0.9949877}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: RndexNub
+      parentName: RIndexFinger3
+      position: {x: 4.0978193e-12, y: 0.000023480994, z: 1.0244548e-12}
+      rotation: {x: 0.09809156, y: 0.008077237, z: -0.02789152, w: 0.99475366}
+      scale: {x: 1.0000001, y: 1, z: 0.9999999}
+    - name: RMiddleFinger1
+      parentName: RHand
+      position: {x: 0.0000066121593, y: 0.00013913827, z: -0.0000029140015}
+      rotation: {x: 0.0039980416, y: -0.00007646415, z: 0.01476056, w: 0.9998831}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000006}
+    - name: RMiddleFinger2
+      parentName: RMiddleFinger1
+      position: {x: -0, y: 0.000048246362, z: 0}
+      rotation: {x: -0.03156229, y: 0.00041206868, z: -0.0023754914, w: 0.99949896}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: RMiddleFinger3
+      parentName: RMiddleFinger2
+      position: {x: 2.561137e-13, y: 0.000032456537, z: 0}
+      rotation: {x: 0.0022848845, y: 0.000035760924, z: -0.0017999578, w: 0.9999958}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: RMiddleNub
+      parentName: RMiddleFinger3
+      position: {x: 2.561137e-13, y: 0.000029039238, z: -1.0244548e-12}
+      rotation: {x: -0.006010985, y: -0.00007511388, z: 0.004123046, w: 0.9999735}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1.1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
