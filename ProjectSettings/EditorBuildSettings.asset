@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/OutdoorsScene.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
+  - enabled: 1
+    path: Assets/App/Scenes/SpaceVRScene.unity
+    guid: 2c89a36198d94d9449bf7d8564e6c342
+  - enabled: 1
+    path: Assets/App/Scenes/MchsVRScene.unity
+    guid: 1e7172f1d2419594c876a91715b4d624
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9df709ed0c083944e84b724f4b2640df,
       type: 2}

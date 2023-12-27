@@ -18,8 +18,7 @@ public class ObjectPointWaterSink : ObjectPointBase
     [SerializeField] private int[] _timeToActions;
 
     private bool _isOnce = false;
-    private bool _isActivateStreamWater = false;
-    private bool _isEndWaterScenario = false;  
+    private bool _isActivatePoint = false;
 
     private int _particlesWaterStream = 0;
 
@@ -45,10 +44,31 @@ public class ObjectPointWaterSink : ObjectPointBase
         if (!_isOnce && _timerController.CurrentTime >= _timeToActions[0])
         {
             _isOnce = true;
+            _isActivatePoint = true;
             _particlesSink.StartParticles(_particlesWaterStream);
 
             _soundSink.PlaySound(_soundDamageTube);
             _soundSink.PlaySound(_soundWaterStream);
+        }
+    }
+
+    public void WaterLeverOff()
+    {
+        if (_isActivatePoint)
+        {
+            _particlesSink.StopParticles(_particlesWaterStream);
+            _soundSink.StopSound(_soundWaterStream);
+            _waterHealth.CurrentWaterHealth = 0;
+        }
+    }
+
+    public void WaterLeverOn()
+    {
+        if (_isActivatePoint)
+        {
+            _particlesSink.StartParticles(_particlesWaterStream);
+            _soundSink.PlaySound(_soundWaterStream);
+            _waterHealth.CurrentWaterHealth = 1;
         }
     }
 

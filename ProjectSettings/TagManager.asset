@@ -3,12 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FiredObject
+  - Fabric
+  - Preventer
+  - RefillWater
+  - ElectricityDamage
+  - FireDamage
+  - ElectricPort
+  - Extinguisher
+  - Water
+  - TopPan
+  - PhoneTube
+  - Hands
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Noninteractble
   - Water
   - UI
   - 
